@@ -1,5 +1,5 @@
 
-None
+
 if type(varA) == str or type(varB) == str:
     print('string involved')
 elif varA > varB:
@@ -7,4 +7,4 @@ elif varA > varB:
 elif varA == varB:
     print('equal')
 elif varA < varB:
-print('smaller')
+    print('smaller')
