@@ -1,0 +1,14 @@
+apiVersion: apps/v1beta1
+kind: Deployment
+metadata:
+  name: my-friend-deployment
+spec:
+  replicas: 2
+  template:
+    metadata:
+      labels:
+        app: my-friend-container
+    spec:
+      containers:
+      - name: my-friend-container
+        image: saivarunr/my_friend_or_enemy
